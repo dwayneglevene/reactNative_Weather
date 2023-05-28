@@ -2,7 +2,7 @@ import React from 'react'
 import { SafeAreaView,StyleSheet,Text,FlatList,View} from 'react-native';
 import { Feather } from '@expo/vector-icons'
 const DATA = [
-
+// JSON DATA FROM api
     {
         "dt": 1661875200,
         "main": {
@@ -159,7 +159,7 @@ const DATA = [
       }
     ]
     
-    
+    // creates the item what it includess (poperties) and the way it will be rendered
 
 const Item = (props) =>{
     const { dt_txt,min,max,condition} = props
@@ -180,6 +180,12 @@ const Item = (props) =>{
 }
 
 
+// component that shows upcoming weather
+// takes the item and assigns the data
+// uses the flatlist to showcase said data
+
+
+// data and renderitem from flatlist are creact by react native the renderitem in the curly bracket was created by me
 
 const UpcomingWeather = () => {
 
