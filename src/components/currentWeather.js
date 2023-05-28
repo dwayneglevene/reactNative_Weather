@@ -2,7 +2,7 @@ import React from "react";
 import {View,Text,SafeAreaView,StyleSheet} from 'react-native';
 import { Feather } from '@expo/vector-icons';
 
-const currentWeather = () => {
+const CurrentWeather = () => {
   return(
     <SafeAreaView style={styles.wrapper}>
     <View style ={styles.container}>
@@ -71,4 +71,4 @@ const styles = StyleSheet.create({
   }
 
 })
-export default currentWeather
+export default CurrentWeather
